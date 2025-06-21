@@ -1,0 +1,81 @@
+
+/* Set background color to black for the active Home button */
+
+.nav-link:active {
+    background-color: black !important;
+    color: white !important;
+}
+
+
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: black;
+}
+
+.nav-link:focus, .nav-link.active {
+    box-shadow: 0 0 10px #1A1A1D;
+    transition: box-shadow 0.3s ease-in-out;
+}
+/* Change background color of the button to black and text to white */
+.btn-custom {
+    background-color: black !important;
+    color: white !important;
+}
+
+/* Change hover color */
+.btn-custom:hover {
+    background-color: #333 !important; /* Darker shade for hover effect */
+    color: white !important;
+}
+
+.container {
+            min-height: 100vh; /* Full viewport height */
+            display: flex;
+            justify-content: center; /* Horizontally center */
+            align-items: center; /* Vertically center */
+        }
+form {
+    width: 100%;
+    max-width: 500px; /* Max width for the form */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-black {
+            background-color: black;
+            color: white;
+        }
+
+        .btn-black:hover {
+            background-color: #333; /* Darker shade for hover effect */
+        }
+.bg-gradient {
+    background: linear-gradient(145deg, #1a1a1d, #222); /* Subtle gradient */
+}
+
+.btn-hover-dark:hover {
+    background-color: black !important;
+    color: white !important;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+    transition: 0.3s ease-in-out;
+}
+
+.card-title, .card-subtitle {
+    color: black !important;
+}
+.btn-black-text {
+    color: black;
+}
+
+

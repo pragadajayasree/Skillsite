@@ -1,0 +1,35 @@
+{% include "header.html" %}
+
+
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="static/images/skill.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">My Skill Set</h1>
+        <p class="lead">With a diverse set of skills honed through years of experience, I bring expertise in key areas essential for success. From technical proficiency to creative problem-solving, my abilities reflect a commitment to excellence and continuous learning. Whether it’s mastering new tools or delivering innovative solutions, I am equipped to meet challenges head-on and drive impactful results.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+<!--          <button type="button" class="btn btn-lg px-4 me-md-2 btn-custom">My Resume</button>-->
+          <a href="{{url_for('skills')}}"><button type="button" class="btn btn-outline-secondary btn-lg px-4" >My Skills</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% include "footer.html" %}
