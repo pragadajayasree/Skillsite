@@ -7,7 +7,7 @@ from sqlalchemy import Integer, String
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
 from werkzeug.security import generate_password_hash, check_password_hash
 
-from form import LoginForm, RegisterForm, ContactForm, AddSkillForm, Update
+from frontend.form import LoginForm, RegisterForm, ContactForm, AddSkillForm, Update
 import os
 
 app = Flask(__name__)
